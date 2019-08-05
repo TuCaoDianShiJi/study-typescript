@@ -5,13 +5,13 @@ a = function(): void {
 }
 function fun(): any{
     return function(): void{
-        console.log('11')
+        console.log(`name`)
     }
 }
 
 let b: Function;
 b = function(): void{
-    console.log(22)
+    console.log(`name`)
 }
 
 let c: (para: string) => string;
